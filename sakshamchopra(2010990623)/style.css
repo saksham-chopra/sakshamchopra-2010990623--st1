@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#A{
+    text-decoration: none;
+}
+#body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    overflow-x:hidden
+}
+/* .navbar {
+  font-family: 'Uchen', serif;
+  background-color: white;
+  margin-right: 30px;
+}
+.nav-link {
+  color: black;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navbar-nav {
+  font-weight: 700;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover {
+  color: white;
+  background-color: rgb(225, 90, 45);
+}
+.navbar-brand {
+  font-size: 1.25rem;
+  font-size: 800;
+  text-decoration: none;
+  cursor: pointer;
+} */
+
+.main{
+    margin-top: 80px;
+}
+
+.main h3{
+    font-family: 'Uchen', serif;
+
+    font-size: 4.4rem;
+    font-size: 700;
+
+}
+.main h6{
+    font-family: 'Uchen', serif;
+
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    /* border-bottom:4px solid rgb(225, 90, 45) ; */
+    width: 40%;
+    
+
+}
+.main .bt1{
+    font-family: 'Uchen', serif;
+
+    height: 55px;
+    width: 138px;
+    background-color:black ;
+    color: white;
+    border: 1px solid rgb(225, 90, 45);
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color:rgb(225, 90, 45) ;
+    color: white;
+    transition: 0.5s;
+}
+.main .bt2{
+    font-family: 'Uchen', serif;
+
+    height: 55px;
+    width: 138px;
+    background-color:transparent ;
+    color: white;
+    border: 1px solid rgb(225, 90, 45);
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+    background-color:rgb(235, 132, 97) ;
+    transition: 0.5s;
+    background-color: rgb(225, 90, 45);
+    color: white;
+}
+
+.about img{
+    box-shadow: 8px 10px 25px 2px rgba(0,0,0,0.71);
+-webkit-box-shadow: 8px 10px 25px 2px rgba(0,0,0,0.71);
+-moz-box-shadow: 8px 10px 25px 2px rgba(0,0,0,0.71);
+}
+.aboutbitmoji{
+    padding: 60px;
+}
+h1{
+    font-family: 'Uchen', serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.about{
+    font-family: 'Uchen', serif;
+    margin-top:10px;
+}
+
+.about h1{
+    color: rgb(225, 90, 45);
+    margin-top: 108px;
+}
+
+.about p{
+    margin-top: 40px;
+}
+.progress{
+
+    color: rgb(0, 0, 0);
+    justify-content: flex-start;
+    border-radius: 40px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 45px;
+    width: 100%;
+    background-color: black;
+
+    /* box-shadow: -2px 14px 41px -4px rgba(0,0,0,0.49);
+-webkit-box-shadow: -2px 14px 41px -4px rgba(0,0,0,0.49);
+-moz-box-shadow: -2px 14px 41px -4px rgba(0,0,0,0.49); */
+    /* padding: 10px; */
+
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    /* animation-fill-mode: forwards;
+    animation-delay: 1s; */
+    border-radius: 50px;
+    background-color: rgb(225, 90, 45);
+    height: 25px;
+    width: 0;
+}
+
+.progress p{
+    color: black;
+    padding: 5px;
+
+}
+
+.pro-value2{
+    animation: load2 7s normal forwards;
+    border-radius: 50px;
+    background-color: rgb(225, 90, 45);
+    height: 25px;
+    width:0px;
+}
+
+.pro-value3{
+    animation: load3 7s normal forwards;
+    border-radius: 50px;
+    background-color: rgb(225, 90, 45);
+    height: 25px;
+    width: 0;
+}
+
+.pro-value4{
+    animation: load4 7s normal forwards;
+    border-radius: 50px;
+    background-color: rgb(225, 90, 45);
+    height: 25px;
+    width: 0;
+}
+
+.pro-value5{
+    animation: load5 7s normal forwards;
+    border-radius: 50px;
+    background-color: rgb(225, 90, 45);
+    height: 25px;
+    width: 0;
+}
+.pro-value1 p{
+    margin:0px
+}
+.pro-value2 p{
+    margin:0px
+}
+.pro-value3 p{
+    margin:0px
+}
+.pro-value4 p{
+    margin:0px
+}
+.pro-value5 p{
+    margin:0px
+}
+@keyframes load1 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes load2 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 92%;
+    }
+}
+
+@keyframes load3 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes load4 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes load5 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 20%;
+    }
+}
+
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid rgb(225, 90, 45);
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.btn1:hover{
+    background-color: rgb(225, 90, 45);
+    color: white;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid rgb(225, 90, 45);
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn2:hover{
+    background-color: rgb(225, 90, 45);
+    color: white;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.services{
+    margin-top: 107px;
+}
+.services h1{
+    color: rgb(225, 90, 45);
+}
+
+.card{
+    border: none;
+    outline: none;
+    box-shadow: -11px 0px 48px 1px rgba(0,0,0,0.59);
+-webkit-box-shadow: -11px 0px 48px 1px rgba(0,0,0,0.59);
+-moz-box-shadow: -11px 0px 48px 1px rgba(0,0,0,0.59);
+}
+
+.card p{
+    color: grey;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(249, 243, 243);
+    color: black;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.card:hover .circle{
+    background-color:  rgb(225, 45, 45);
+    color: white;
+    transition: 0.5s;
+
+}
+
+.circle:hover{
+    background-color:  rgb(225, 90, 45) ;
+    transition: 0.4s;
+    color: white;
+}
+.btn3{
+    background-color: rgb(225, 90, 45);
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.btn3:hover{
+    
+    color: black;
+    transition: 0.4s;
+    /* border: 1px solid black; */
+}
+
+.contacts h1{
+    color: rgb(225, 90, 45);
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+.card-body h4{
+    color: black;
+}
+
+.about-me-text {
+    color: rgb(225, 90, 45);
+    overflow: hidden;
+      /* border-right: .15em solid orange; */
+      white-space: nowrap;
+      animation: 
+      typing 3s steps(20, end) forwards;
+      font-size: 1.6rem;
+      width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 45% }
+  }
+
